@@ -1,0 +1,245 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*This is where the actual CSS begins*/
+
+body{
+	background-color: white;
+	min-width: 1500px;.
+}
+
+.heading{
+	margin-top: 25px;
+	text-align: center;
+	font-size: 55px;
+	font-family: "Garamond Light", 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	font-weight: 700;
+}
+
+.links{
+	font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+	margin-top: 10px;
+	color: white;
+	font-size: 25px;
+	background-color: rgb(29,29,29);
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+#buttons{
+	height: 100px;
+	width: 1500px;
+	text-align: center;
+	background-color: rgb(29, 29, 29);
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#resume{
+	margin-left: 8%;
+	margin-top: 35px;
+}
+
+#quotes{
+	margin-left: 8%;
+}
+
+picture{
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+#openingStatement{
+	display: block;
+	margin: 0 auto;
+	width: 1500px;
+	height: 300px;
+	/* border: solid;
+	border-radius: 10px; */
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+/* section{
+	padding-top: 50px;
+	background-color: green;
+	height: 300px;
+	text-align: center;
+	width: 63%;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+} */
+
+article{
+	background-color: orange;
+	padding: 10px;
+	height: 100px;
+	border-width: 3px;
+	border-color: black;
+	width: 90%;
+	display: inline-block;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+aside{
+	padding-top: 50px;
+	background-color: yellow;
+	height: 300px;
+	text-align: center;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+}
+
+
+.intro{
+	text-align: center;
+	color: black;
+	font-size: 36px;
+	padding-top:24px;
+}
+
+.about{
+	text-align: center;
+	color: orange;
+}
+
+hr{
+	width: 90%;
+	margin-bottom: 25px;
+}
+
+footer{
+height: 100px;
+padding-top: 25px;
+text-align: center;
+margin: 0 auto;
+font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+color: rgb(72, 81, 86);
+font-size: 24px;
+margin-bottom: 150px;
+}
+
+#SJQuote{
+	font-style: italic;
+	font-size: 24px;
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+#CentralSection{
+	min-width: 1000px;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 5px;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: red;
+	padding:10px;
+}
+
+#articleid{
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+#quoteDescription{
+  height: 200px;
+  width: 1500px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+.quotePicLeft{
+	width: 1500px;
+	height: 350px;
+	margin: 0 auto;
+	border: dashed;
+}
+
+.picLeft{
+	background-color: blue;
+	float: left;
+}
+
+#emerson{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+
+.quoteTextRight{
+	text-align: right;
+	padding-bottom: 100px;
+	width: 1250px;
+	background-color: pink;
+
+}
