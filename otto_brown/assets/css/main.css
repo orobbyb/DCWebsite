@@ -54,7 +54,7 @@ table {
 
 body{
 	background-color: white;
-	min-width: 1500px;.
+	min-width: 90%;.
 }
 
 .heading{
@@ -129,7 +129,7 @@ article{
 	height: 100px;
 	border-width: 3px;
 	border-color: black;
-	width: 90%;
+	width: 1500px;
 	display: inline-block;
 	margin-top: 10px;
 	border-radius: 10px;
