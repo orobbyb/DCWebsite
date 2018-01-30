@@ -62,8 +62,13 @@ body{
 	margin-bottom: 25px;
 	text-align: center;
 	font-size: 55px;
+<<<<<<< HEAD
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 500;
+=======
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+>>>>>>> 1af026c00405a74cb5a3d48e7cc58fdb8b5c6713
 }
 
 .links{
