@@ -59,10 +59,11 @@ body{
 
 .heading{
 	margin-top: 25px;
+	margin-bottom: 25px;
 	text-align: center;
 	font-size: 55px;
-	font-family: "Garamond Light", 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-	font-weight: 700;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 500;
 }
 
 .links{
