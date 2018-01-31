@@ -62,13 +62,8 @@ body{
 	margin-bottom: 25px;
 	text-align: center;
 	font-size: 55px;
-<<<<<<< HEAD
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 500;
-=======
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 200;
->>>>>>> 1af026c00405a74cb5a3d48e7cc58fdb8b5c6713
 }
 
 .links{
@@ -78,8 +73,9 @@ body{
 	width: 300px;
 	margin-top: 10px;
 	color: white;
-	font-size: 25px;
-	background-color: rgb(50,50,50);
+	font-size: 30px;
+	background-color: rgb(50, 50, 50);
+	margin-right: 3px;
 	margin-bottom: 10px;
 	text-decoration: none;
 }
@@ -105,17 +101,8 @@ picture{
 	text-align: center;
 }
 
-#openingStatement{
-	display: block;
-	margin: 0 auto;
-	width: 1500px;
-	height: 300px;
-	/* border: solid;
-	border-radius: 10px; */
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-}
+
+
 
 /* section{
 	padding-top: 50px;
@@ -160,10 +147,6 @@ article{
 	padding-top:24px;
 }
 
-.about{
-	text-align: center;
-	color: orange;
-}
 
 hr{
 	width: 90%;
@@ -208,15 +191,15 @@ margin-bottom: 150px;
 	border-color: black;
 }
 
-#quoteDescription{
-  height: 200px;
+#quoteDescriptionDiv{
+  height: 300px;
   width: 1500px;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 30px;
 	font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-	font-size: 20px;
-	line-height: 1.6;
+	font-size: 25px;
+	line-height: 1.7;
 }
 
 .quotePicLeft{
@@ -239,6 +222,7 @@ margin-bottom: 150px;
 }
 
 .actualTextRight{
+	padding: 10px;
 	text-align: center;
 	margin-top: 100px;
 	font-size: 36px;
@@ -266,9 +250,14 @@ margin-bottom: 150px;
 }
 
 .actualTextLeft{
+	padding: 10px;
 	text-align: center;
 	margin-top: 100px;
 	font-size: 36px;
 	line-height: 1.6;
 	font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+#janus{
+	border-color: green;
 }
