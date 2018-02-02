@@ -114,17 +114,6 @@ picture{
 	text-align: center;
 }
 
-article{
-	background-color: orange;
-	padding: 10px;
-	height: 100px;
-	border-width: 3px;
-	border-color: black;
-	width: 1500px;
-	display: inline-block;
-	margin-top: 10px;
-	border-radius: 10px;
-}
 
 .intro{
 	text-align: center;
@@ -157,7 +146,7 @@ margin-bottom: 150px;
 	line-height: 1.5;
 }
 
-#CentralSection{
+/* #CentralSection{
 	min-width: 1000px;
 	margin: 0 auto;
 	border-style: solid;
@@ -168,13 +157,13 @@ margin-bottom: 150px;
 	border-radius: 10px;
 	background-color: red;
 	padding:10px;
-}
+} */
 
-#articleid{
+/* #articleid{
 	border-style: solid;
 	border-width: 5px;
 	border-color: black;
-}
+} */
 
 #quoteDescriptionDiv{
   height: 300px;
@@ -190,8 +179,8 @@ margin-bottom: 150px;
 .quotePicLeft{
 	width: 1500px;
 	height: 300px;
-	border: dashed;
-	border-color: blue;
+	/* border: dashed; */
+	/* border-color: blue; */
 	margin: 0 auto;
 	margin-bottom: 75px;
 }
@@ -218,9 +207,9 @@ margin-bottom: 150px;
 .quotePicRight{
 	width: 1500px;
 	height: 300px;
-	border: dashed;
+	/* border: dashed; */
 	margin: 0 auto;
-	border-color: red;
+	/* border-color: red; */
 	margin-bottom: 75px;
 }
 
