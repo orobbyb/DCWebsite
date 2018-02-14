@@ -52,9 +52,11 @@ table {
 
 /*-------------------This is where the actual CSS begins------------------------*/
 
+/*-------------------CSS for All Pages------------------------*/
+
 html{
 	overflow-y: scroll;
-	zoom: 90%;
+	/* zoom: 90%; */
 }
 
 body{
@@ -111,26 +113,10 @@ header{
 	margin-top: 35px;
 }
 
-picture{
-	display: inline-block;
-	margin: 0 auto;
-	width: 100%;
-	text-align: center;
-}
-
-
-.intro{
-	text-align: center;
-	color: black;
-	font-size: 36px;
-	padding-top:24px;
-}
-
 hr{
 	width: 90%;
 	margin-bottom: 25px;
 }
-
 footer{
 height: 100px;
 padding-top: 25px;
@@ -150,8 +136,25 @@ margin-bottom: 150px;
 	line-height: 1.5;
 }
 
+/*-------------------CSS for Home Page------------------------*/
+picture{
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.intro{
+	text-align: center;
+	color: black;
+	font-size: 36px;
+	padding-top:24px;
+}
+
+/*-------------------CSS Quotes Page------------------------*/
+
 #quoteDescriptionDiv{
-  height: 300px;
+  height: 400px;
   width: 1500px;
 	text-align: center;
 	margin: 0 auto;
@@ -160,6 +163,10 @@ margin-bottom: 150px;
 	font-size: 25px;
 	line-height: 1.7;
 	margin-bottom: 50px;
+}
+
+#anthology{
+	color:black;
 }
 
 .quotePicLeft{
@@ -231,6 +238,8 @@ margin-bottom: 150px;
 	padding: 0px;
 	margin-top: 75px;
 }
+
+/*-------------------CSS for About Page------------------------*/
 
 .pictureAndBio{
 	width: 1500px;
