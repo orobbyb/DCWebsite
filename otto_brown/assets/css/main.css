@@ -231,10 +231,24 @@ picture{
 
 #bottome{
 	padding: 0px;
+	padding-right: 5px;
 	margin-top: 80px;
 }
 
+#bottomeText{
+	width: 1305px;
+}
+
 #angelou2{
+	padding: 0px;
+	margin-top: 75px;
+}
+
+#anglouText{
+	width: 1200px;
+}
+
+#copernicus{
 	padding: 0px;
 	margin-top: 75px;
 }
