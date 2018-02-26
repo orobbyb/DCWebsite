@@ -257,7 +257,7 @@ picture{
 
 .pictureAndBio{
 	width: 1500px;
-	height: 460px;
+	height: 500px;
 	border: solid;
 	border-color: green;
 	margin: 0 auto;
@@ -269,8 +269,8 @@ picture{
 }
 
 #otto{
-	width: 300px;
-	height: 460px;
+	width: 333px;
+	height: 500px;
 	float: left;
 }
 
