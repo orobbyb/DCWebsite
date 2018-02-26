@@ -77,7 +77,9 @@ body{
 
 .links{
 	float: center;
-	font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 1000;
+	/* font-style: bold; */
 	display: inline-block;
 	text-align: center;
 	width: 300px;
@@ -122,7 +124,7 @@ height: 100px;
 padding-top: 25px;
 text-align: center;
 margin: 0 auto;
-font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 color: rgb(72, 81, 86);
 font-size: 24px;
 margin-bottom: 150px;
@@ -130,7 +132,7 @@ margin-bottom: 150px;
 
 #SJQuote{
 	font-style: italic;
-	font-size: 24px;
+	font-size: 20px;
 	width: 1000px;
 	margin: 0 auto;
 	line-height: 1.5;
