@@ -124,7 +124,7 @@ height: 100px;
 padding-top: 25px;
 text-align: center;
 margin: 0 auto;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
 color: rgb(72, 81, 86);
 font-size: 24px;
 margin-bottom: 150px;
@@ -260,6 +260,7 @@ picture{
 .pictureAndBio{
 	width: 1500px;
 	height: 500px;
+	position: relative;
 	border: solid;
 	border-color: green;
 	margin: 0 auto;
@@ -273,12 +274,13 @@ picture{
 #otto{
 	width: 333px;
 	height: 500px;
+	position: relative;
 	float: left;
 }
 
 .bio{
-	width: 1200px;
-	height: 360;
+	width: 1167px;;
+	height: 360px;
 	float: right;
 }
 
