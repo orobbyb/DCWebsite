@@ -121,18 +121,14 @@ hr{
 }
 
 footer{
-/* height: 100px;
+height: 100px;
 padding-top: 25px;
 text-align: center;
 margin: 0 auto;
 font-family: Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
 color: rgb(72, 81, 86);
 font-size: 1.5em; /*24px*/
-/*margin-bottom: 150px; */
-
-position: fixed;
-width: 100%;
-bottom: 0;
+margin-bottom: 150px;
 }
 
 #SJQuote{
